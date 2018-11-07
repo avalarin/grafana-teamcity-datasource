@@ -1,0 +1,10 @@
+FROM grafana/grafana
+
+ENV GF_SERVER_ROOT_URL=http://localhost:3000 \
+    GF_SECURITY_ADMIN_PASSWORD=secret
+
+RUN grafana-cli plugins install vonage-status-panel && \
+    grafana-cli plugins install snuids-trafficlights-panel
+
+RUN mkdir -p /var/lib/grafana/plugins/teamcity-datasource
+ADD . /var/lib/grafana/plugins/teamcity-datasource/

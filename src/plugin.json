@@ -1,0 +1,35 @@
+{
+    "name": "Teamcity",
+    "id": "grafana-teamcity-datasource",
+    "type": "datasource",
+  
+    "partials": {
+      "config": "public/app/plugins/datasource/simplejson/partials/config.html"
+    },
+  
+    "metrics": true,
+    "annotations": false,
+  
+    "info": {
+      "description": "JetBrains TeamCity Datasource",
+      "author": {
+        "name": "Alexandr Prokopyev",
+        "url": "https://github.com/avalarin"
+      },
+      "logos": {
+        "small": "img/teamcity_logo.svg",
+        "large": "img/teamcity_logo.svg"
+      },
+      "links": [
+        {"name": "GitHub", "url": "https://github.com/avalarin/grafana-teamcity-datasource"},
+        {"name": "MIT License", "url": "https://github.com/avalarin/grafana-teamcity-datasource/blob/master/LICENSE"}
+      ],
+      "version": "1.0.0",
+      "updated": "2018-11-07"
+    },
+
+    "dependencies": {
+      "grafanaVersion": "3.x.x",
+      "plugins": [ ]
+    }
+  }
