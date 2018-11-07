@@ -22,8 +22,8 @@
   "homepage": "https://github.com/avalarin/grafana-teamcity-datasource#readme",
   "devDependencies": {
     "babel": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "chai": "~3.5.0",
     "grunt": "^1.0.1",
     "grunt-babel": "~6.0.0",
@@ -37,7 +37,7 @@
     "grunt-systemjs-builder": "^1.0.0",
     "jsdom": "~9.12.0",
     "load-grunt-tasks": "^3.5.2",
-    "mocha": "^3.2.0",
+    "mocha": "^5.2.0",
     "prunk": "^1.3.0",
     "q": "^1.5.0"
   },
