@@ -1,5 +1,5 @@
 {
-    "name": "Teamcity",
+    "name": "TeamCity",
     "id": "grafana-teamcity-datasource",
     "type": "datasource",
   
